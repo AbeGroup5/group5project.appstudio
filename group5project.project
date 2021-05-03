@@ -22,6 +22,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "UserCreate",
+            "UserCreate.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "loginPage",
             "loginPage.json"
           ]
@@ -62,16 +70,24 @@
           "!type": "External",
           "file": [
             "forms",
-            "UserCreate",
-            "UserCreate.json"
+            "PostMade",
+            "PostMade.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "PostMade",
-            "PostMade.json"
+            "MAPAPI",
+            "MAPAPI.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Form1",
+            "Form1.json"
           ]
         }
       ],

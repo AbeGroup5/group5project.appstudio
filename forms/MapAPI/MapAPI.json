@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
+  "background": "",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -14,36 +14,9 @@
       "!type": "External",
       "file": [
         "forms",
-        "Login2",
+        "MAPAPI",
         "Elements",
-        "lblRateMy.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Login2",
-        "Elements",
-        "iptUsername.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Login2",
-        "Elements",
-        "iptPassword.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Login2",
-        "Elements",
-        "btnLogin.json"
+        "Button1.json"
       ]
     }
   ],
@@ -53,7 +26,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "Login2",
+  "id": "MAPAPI",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

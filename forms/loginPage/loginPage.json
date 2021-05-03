@@ -2,8 +2,8 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
-  "backgroundimage": "",
+  "background": "",
+  "backgroundimage": "background.png",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
@@ -25,25 +25,7 @@
         "forms",
         "loginPage",
         "Elements",
-        "WelcomeLabel.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "loginPage",
-        "Elements",
         "Line1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "loginPage",
-        "Elements",
-        "CreateAccountLabel.json"
       ]
     },
     {
@@ -80,6 +62,15 @@
         "loginPage",
         "Elements",
         "signUp.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "loginPage",
+        "Elements",
+        "Image2.json"
       ]
     }
   ],

@@ -1,19 +1,31 @@
-submitBtn.onclick = function() {
+let userDatabase = [ ]
+
+UserCreate.onshow=function(){
+  query = "SELECT  userName FROM user"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dap58338&pass=" + pw + "&database=" + database + "&query=" + query)
+  if (req.status == 200) {
+  userDatabase = JSON.parse(req.responseText)
+  console.log(userDatabase)
+} else {
+  alert('error')
+  }
+}
+
+btnCreate.onclick = function() {
   let first_name = iptFirst.value
   let last_name = iptLast.value
   let userName = iptUser.value
   let password = iptPass.value
 
-  if (!first_name || !last_name || !userName || !password) {
-    alert("Fill out all columns")
 
-  } else {
-    for (i = 0; i < userName.length; i++) {
-     
-      if (foundEmail == false) { //need to update foundEmail
-        console.log('No user with this email') // use alert?
-        //Do same thing with user now
-        for (i = 0; i < userNameData.length; i++) {
+
+  if (!first_name || !last_name || !userName || !password) {
+    alert("Columns not Complete!")
+
+  }   /* else {
+  
+    
+     for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
         foundUser = true // need to update found user
         lblAlertSign.value = "There is a user with this username already" // need to update label
@@ -38,6 +50,11 @@ submitBtn.onclick = function() {
             lblAlertSign.value = "Error: " + req.status // update label
         }
       }
+*/
     }
-    }
+   
+logBtn.onclick=function(){
+    ChangeForm(loginPage)
+}
+
 

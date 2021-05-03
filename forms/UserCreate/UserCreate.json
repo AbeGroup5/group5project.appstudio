@@ -2,8 +2,8 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
-  "backgroundimage": "",
+  "background": "",
+  "backgroundimage": "background.png",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
@@ -17,15 +17,6 @@
         "UserCreate",
         "Elements",
         "iptFirst.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "UserCreate",
-        "Elements",
-        "Label1.json"
       ]
     },
     {
@@ -61,13 +52,31 @@
         "forms",
         "UserCreate",
         "Elements",
-        "submitBtn.json"
+        "btnCreate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "UserCreate",
+        "Elements",
+        "Image3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "UserCreate",
+        "Elements",
+        "logBtn.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
@@ -79,7 +88,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "UserCreate.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
