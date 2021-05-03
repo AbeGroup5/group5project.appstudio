@@ -14,19 +14,19 @@
       "!type": "External",
       "file": [
         "forms",
-        "MAPAPI",
+        "Form1",
         "Elements",
-        "Button1.json"
+        "GM.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "MAPAPI",
+  "id": "Form1",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

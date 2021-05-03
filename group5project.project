@@ -78,8 +78,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "MapAPI",
-            "MapAPI.json"
+            "MAPAPI",
+            "MAPAPI.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Form1",
+            "Form1.json"
           ]
         }
       ],
@@ -102,7 +110,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "MapAPI",
+      "firstform": "loginPage",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
