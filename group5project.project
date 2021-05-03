@@ -54,16 +54,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "Login2",
-            "Login2.json"
+            "Login2_notUsed",
+            "Login2_notUsed.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "GoogleLogin",
-            "GoogleLogin.json"
+            "GoogleLogin_recaptcha",
+            "GoogleLogin_recaptcha.json"
           ]
         },
         {

@@ -3,7 +3,7 @@
   "HTML": null,
   "attributes": "",
   "background": "",
-  "backgroundimage": "",
+  "backgroundimage": "background.png",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
@@ -17,6 +17,15 @@
         "PostMade",
         "Elements",
         "DataTable1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PostMade",
+        "Elements",
+        "Image6.json"
       ]
     }
   ],
