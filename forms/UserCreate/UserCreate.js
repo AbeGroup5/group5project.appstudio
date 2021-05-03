@@ -35,7 +35,7 @@ btnCreate.onclick = function() {
       }
         if (usernameTaken == false) {
         console.log('No user with this username') //alert? DELETE
-        query = "INSERT INTO user (userName, password, first_name, last_name) VALUES ('" + userName + "','" + password + "',  '" + first_name + "','" + last_name + "')"
+        query = "INSERT INTO user (userName, password, first_name, last_name) VALUES (${userName}, ${password}, ${first_name}, ${last_name})"
 
 
             req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dap58338&pass=" + pw + "&database=" + database + "&query=" + query)
