@@ -30,7 +30,7 @@ SignInButton.onclick = function() {
     }
 }
 signUp.onclick=function(){
-    ChangeForm(UserCreation)
+    ChangeForm(UserCreate)
 }
 
 

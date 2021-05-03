@@ -14,54 +14,54 @@
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "btnPost.json"
+        "iptFirst.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "Hamburger2.json"
+        "Label1.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "txtaPost.json"
+        "iptLast.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "drpRating.json"
+        "iptUser.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "drpProf.json"
+        "iptPass.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "MakePost",
+        "UserCreate",
         "Elements",
-        "Image1.json"
+        "submitBtn.json"
       ]
     }
   ],
@@ -71,7 +71,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "MakePost",
+  "id": "UserCreate",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -88,5 +88,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": "340"
+  "width": 320
 }
