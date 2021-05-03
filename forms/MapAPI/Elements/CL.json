@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "Button1",
-  "left": 95,
+  "id": "CL",
+  "left": 70,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 401,
-  "value": "Button",
+  "top": 422,
+  "value": "Get Current Location",
   "width": "auto"
 }

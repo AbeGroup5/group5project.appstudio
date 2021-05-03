@@ -3,7 +3,7 @@
   "HTML": null,
   "attributes": "",
   "background": "",
-  "backgroundimage": "",
+  "backgroundimage": "background.png",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
@@ -16,7 +16,7 @@
         "forms",
         "MAPAPI",
         "Elements",
-        "Button1.json"
+        "CL.json"
       ]
     },
     {
@@ -25,7 +25,16 @@
         "forms",
         "MAPAPI",
         "Elements",
-        "GMCopy.json"
+        "GM.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "MAPAPI",
+        "Elements",
+        "Image5.json"
       ]
     }
   ],
