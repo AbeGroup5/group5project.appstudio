@@ -56,4 +56,6 @@ let comment = txtaPost.value
         }
       }
 
-
+Image1.onclick=function(){
+    ChangeForm(HomeSearch)
+}

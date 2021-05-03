@@ -104,5 +104,5 @@ case "Posts":
 }
 
 Image5.onclick=function(){
-    ChangeForm(loginPage)
+    ChangeForm(HomeSearch)
 }
