@@ -1,12 +1,16 @@
- /* Hamburger1.onclick=function(s){
-if (typeof(s) == "object") 
+Hamburger1.onclick=function(s){
+if (typeof(s) == "object") {
     return
+}
 switch(s) {
 case "Login":
-    ChangeForm(Login)
+    ChangeForm(loginPage)
     break
-case "Post":
+case "Make Post":
     ChangeForm(MakePost)
+    break
+case "Posts":
+    ChangeForm(PostMade)
     break
 }
 }
@@ -18,7 +22,7 @@ let prof = iptLastName.value
 
 
 btnSubmit.onclick=function(){
+    ChangeForm(MakePost)
   //connect to sql database with parameters
   //take us to post page, nit yet created
 }
-*/

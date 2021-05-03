@@ -1,4 +1,4 @@
-let req = {}
+/*let req = {}
 let query = ''
 let results = []
 let pw = "123ABC" 
@@ -28,9 +28,6 @@ btnLogin.onclick = function() {
     }
     
 }
-
-
-/*
 
 //check if user exists
 let userNameInput = ""

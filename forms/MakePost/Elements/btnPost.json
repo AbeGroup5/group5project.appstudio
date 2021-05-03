@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnPost",
-  "left": 121,
+  "left": 120,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 386,
+  "top": 404,
   "value": "POST",
   "width": "auto"
 }

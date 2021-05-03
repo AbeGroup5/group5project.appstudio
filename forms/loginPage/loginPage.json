@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "pink",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -70,7 +70,7 @@
         "forms",
         "loginPage",
         "Elements",
-        "PasswordForgot.json"
+        "SignInButton.json"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "forms",
         "loginPage",
         "Elements",
-        "SignInButton.json"
+        "signUp.json"
       ]
     }
   ],

@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "pink",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -25,7 +25,25 @@
         "forms",
         "MakePost",
         "Elements",
-        "drpProf.json"
+        "btnPost.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "MakePost",
+        "Elements",
+        "Hamburger2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "MakePost",
+        "Elements",
+        "txtaPost.json"
       ]
     },
     {
@@ -43,16 +61,7 @@
         "forms",
         "MakePost",
         "Elements",
-        "iptMakePost.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "MakePost",
-        "Elements",
-        "btnPost.json"
+        "drpProf.json"
       ]
     }
   ],
