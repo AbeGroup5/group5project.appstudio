@@ -4,11 +4,13 @@ btnCreate.onclick = function() {
   let userName = iptUser.value
   let password = iptPass.value
 
+
+
   if (!first_name || !last_name || !userName || !password) {
-    alert("Sign up Incomplete!")
+    alert("Columns not Complete!")
 
-  } /* else {
-
+  } else {
+    /*
     
      for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
