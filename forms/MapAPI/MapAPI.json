@@ -18,6 +18,15 @@
         "Elements",
         "Button1.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "MAPAPI",
+        "Elements",
+        "GMCopy.json"
+      ]
     }
   ],
   "class": "",
