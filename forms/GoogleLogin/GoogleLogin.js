@@ -27,3 +27,40 @@ loglpjs();
   }
   
   */
+  
+  //RECAPTCHA
+  /*
+  public void onClick(View v) {
+    SafetyNet.getClient(this).verifyWithRecaptcha(AIzaSyBIdeWUkfczZ8DnlAN27LbUnN3j9hjjdjY)
+        .addOnSuccessListener((Executor) this,
+            new OnSuccessListener<SafetyNetApi.RecaptchaTokenResponse>() {
+                @Override
+                public void onSuccess(SafetyNetApi.RecaptchaTokenResponse response) {
+                    // Indicates communication with reCAPTCHA service was
+                    // successful.
+                    String userResponseToken = response.getTokenResult();
+                    if (!userResponseToken.isEmpty()) {
+                        // Validate the user response token using the
+                        // reCAPTCHA siteverify API.
+                    }
+                }
+        })
+        .addOnFailureListener((Executor) this, new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    if (e instanceof ApiException) {
+                        // An error occurred when communicating with the
+                        // reCAPTCHA service. Refer to the status code to
+                        // handle the error appropriately.
+                        ApiException apiException = (ApiException) e;
+                        int statusCode = apiException.getStatusCode();
+                        Log.d(TAG, "Error: " + CommonStatusCodes
+                                .getStatusCodeString(statusCode));
+                    } else {
+                        // A different, unknown type of error occurred.
+                        Log.d(TAG, "Error: " + e.getMessage());
+                    }
+                }
+        });
+}
+*/
