@@ -5,15 +5,10 @@ submitBtn.onclick = function() {
   let password = iptPass.value
 
   if (!first_name || !last_name || !userName || !password) {
-    alert("Fill out all columns")
+    alert("Columns not Complete!")
 
   } else {
-    for (i = 0; i < userName.length; i++) {
-     
-      if (foundEmail == false) { //need to update foundEmail
-        console.log('No user with this email') // use alert?
-        //Do same thing with user now
-        for (i = 0; i < userNameData.length; i++) {
+     for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
         foundUser = true // need to update found user
         lblAlertSign.value = "There is a user with this username already" // need to update label
@@ -39,4 +34,8 @@ submitBtn.onclick = function() {
         }
       }
     }
-    }
+    
+
+submitBtn.onclick=function(){
+    ChangeForm(loginPage)
+}

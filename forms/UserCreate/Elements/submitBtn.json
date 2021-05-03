@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "submitBtn",
-  "left": 121,
+  "left": 90,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 379,
-  "value": "Submit",
+  "top": 377,
+  "value": "Submit/Login",
   "width": "auto"
 }
