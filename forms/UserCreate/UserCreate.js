@@ -21,7 +21,7 @@ btnCreate.onclick = function() {
 
 
   if (!first_name || !last_name || !userName || !password) {
-    alert("Columns not Complete!")
+    alert("Creation Incomplete!")
 
   }    else {
   
