@@ -22,6 +22,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "UserCreate",
+            "UserCreate.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "loginPage",
             "loginPage.json"
           ]
@@ -56,14 +64,6 @@
             "forms",
             "GoogleLogin",
             "GoogleLogin.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "UserCreate",
-            "UserCreate.json"
           ]
         },
         {

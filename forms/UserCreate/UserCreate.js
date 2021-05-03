@@ -1,3 +1,16 @@
+let userDatabase = [ ]
+
+UserCreate.onshow=function(){
+  query = "SELECT  userName FROM user"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dap58338&pass=" + pw + "&database=" + database + "&query=" + query)
+  if (req.status == 200) {
+  userDatabase = JSON.parse(req.responseText)
+  console.log(userDatabase)
+} else {
+  alert('error')
+  }
+}
+
 btnCreate.onclick = function() {
   let first_name = iptFirst.value
   let last_name = iptLast.value
@@ -9,8 +22,8 @@ btnCreate.onclick = function() {
   if (!first_name || !last_name || !userName || !password) {
     alert("Columns not Complete!")
 
-  } else {
-    /*
+  }   /* else {
+  
     
      for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
@@ -43,3 +56,5 @@ btnCreate.onclick = function() {
 logBtn.onclick=function(){
     ChangeForm(loginPage)
 }
+
+
