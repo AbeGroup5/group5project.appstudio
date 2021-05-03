@@ -1,4 +1,4 @@
-let req = {}
+/*let req = {}
 let query = ''
 let results = []
 let pw = "123ABC" 
