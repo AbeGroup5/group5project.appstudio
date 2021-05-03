@@ -2,27 +2,17 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
+  "background": "",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "PostMade",
-        "Elements",
-        "DataTable1.json"
-      ]
-    }
-  ],
+  "children": [],
   "class": "",
-  "designHeight": 460,
-  "designWidth": 320,
+  "designHeight": 0,
+  "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,

@@ -1,4 +1,4 @@
-src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSV7XUKItR7LX455m6QEUkgqz2Fc6ycGk&callback=initMap&libraries=&v=weekly"
+/* src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSV7XUKItR7LX455m6QEUkgqz2Fc6ycGk&callback=initMap&libraries=&v=weekly"
 async 
   callAPI(requestURL)
 
@@ -83,3 +83,4 @@ function initMap() {
   });
 }
 map = new google.maps.Map(document.getElementById("map"), {...});
+*/
