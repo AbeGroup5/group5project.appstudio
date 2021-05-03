@@ -53,25 +53,7 @@ function initMap() {
   const creighton = { lat: 41.265308, lng: -95.947189 };
   const UNO = { lat: 41.257561, lng: -96.004929 };
   const UNL = { lat: 40.859692, lng: -96.642288 };
-Hamburger3.onclick=function(s){
-  if (typeof(s) == "object") {
-    return 
-}
-switch(s){
-case "Login ":
-    ChangeForm(loginPage)
-    break
-case "Home Search ":
-    ChangeForm(HomeSearch)
-    break
-case "Make Post ":
-    ChangeForm(MakePost)
-    break
-case "Posts":
-    ChangeForm(PostMade)
-    break
-}
-}
+
 // The map, centered at creighton 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
@@ -100,3 +82,27 @@ function initMap() {
   });
 }
 // map = new google.maps.Map(document.getElementById("map"), {...});
+
+Hamburger3.onclick=function(s){
+  if (typeof(s) == "object") {
+    return 
+}
+switch(s){
+case "Login ":
+    ChangeForm(loginPage)
+    break
+case "Home Search ":
+    ChangeForm(HomeSearch)
+    break
+case "Make Post ":
+    ChangeForm(MakePost)
+    break
+case "Posts":
+    ChangeForm(PostMade)
+    break
+}
+}
+
+Image5.onclick=function(){
+    ChangeForm(loginPage)
+}
