@@ -1,4 +1,4 @@
-submitBtn.onclick = function() {
+btnCreate.onclick = function() {
   let first_name = iptFirst.value
   let last_name = iptLast.value
   let userName = iptUser.value
@@ -7,7 +7,7 @@ submitBtn.onclick = function() {
   if (!first_name || !last_name || !userName || !password) {
     alert("Columns not Complete!")
 
-  } else {
+  } /* else {
      for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
         foundUser = true // need to update found user
@@ -33,9 +33,9 @@ submitBtn.onclick = function() {
             lblAlertSign.value = "Error: " + req.status // update label
         }
       }
+*/
     }
-    
-
-submitBtn.onclick=function(){
+   
+logBtn.onclick=function(){
     ChangeForm(loginPage)
 }

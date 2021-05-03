@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "submitBtn",
-  "left": 90,
+  "id": "logBtn",
+  "left": 128,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 379,
-  "value": "Submit/Login",
+  "top": 414,
+  "value": "Login",
   "width": "auto"
 }
