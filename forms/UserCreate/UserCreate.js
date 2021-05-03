@@ -1,3 +1,12 @@
+let req = {}
+let query = ''
+let results = []
+let pw = "123ABC" 
+let netId = "dap58338"
+let database = "375groupa5"
+let allUsers =[]
+
+
 let userDatabase = [ ]
 
 UserCreate.onshow=function(){
@@ -35,15 +44,15 @@ btnCreate.onclick = function() {
       }
         if (usernameTaken == false) {
         console.log('No user with this username') //alert? DELETE
-        query = "INSERT INTO user (userName, password, first_name, last_name) VALUES (${userName}, ${password}, ${first_name}, ${last_name})"
+        query = "INSERT INTO user (userName, password, first_name, last_name) VALUES ('"+userName+"','"+password+"','"+first_name+"','"+last_name+"')"
 
 
             req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dap58338&pass=" + pw + "&database=" + database + "&query=" + query)
             if (req.status == 200) {
               if (req.responseText == 500)
-                Alert("You've signed up! Click Login to continue")
+                alert("You've signed up! Click Login to continue")
             } else
-              Alert("There was an issue adding you to the server!")
+              alert("There was an issue adding you to the server!")
           } 
         }
       }

@@ -1,11 +1,3 @@
-let req = {}
-let query = ''
-let results = []
-let pw = "123ABC" 
-let netId = "dap58338"
-let database = "375groupa5"
-let allUsers =[]
-
 SignInButton.onclick = function() {
     userNameID = userNameInput.value
     let password_id = PasswordInput.value
