@@ -16,15 +16,6 @@
         "forms",
         "HomeSearch",
         "Elements",
-        "lblRateMyProf.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "HomeSearch",
-        "Elements",
         "iptClassNumber.json"
       ]
     },
@@ -71,6 +62,15 @@
         "HomeSearch",
         "Elements",
         "drpDepartment.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "HomeSearch",
+        "Elements",
+        "Image4.json"
       ]
     }
   ],
