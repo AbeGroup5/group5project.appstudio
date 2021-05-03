@@ -3,13 +3,13 @@ if (typeof(s) == "object") {
     return
 }
 switch(s) {
-case "Login":
+case "Login ":
     ChangeForm(loginPage)
     break
-case "Make Post":
+case "Make Post ":
     ChangeForm(MakePost)
     break
-case "Posts":
+case "Posts ":
     ChangeForm(PostMade)
     break
 case "Map":

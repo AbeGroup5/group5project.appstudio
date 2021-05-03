@@ -30,7 +30,7 @@
   "icon": "menu",
   "iconTitle": "",
   "id": "Hamburger3",
-  "items": "Login\nSearch\nMake a Post\nAll Posts",
+  "items": "Login  Home Search  Make Post  Posts",
   "left": 6,
   "mAll": "",
   "mBottom": "",
