@@ -1,6 +1,6 @@
 {
   "!type": "Image_bs4",
-  "backgroundColor": "",
+  "backgroundColor": "black",
   "bottom": "auto",
   "cached_js": "",
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -14,7 +14,7 @@
   "fontSize": "",
   "fontStyle": "",
   "fontWeight": "",
-  "height": 91,
+  "height": 84,
   "hidden": "",
   "id": "Image2",
   "left": 11,
@@ -48,6 +48,6 @@
   "shape": "",
   "src": "rate-teacher-professor.png",
   "style": "",
-  "top": 0,
+  "top": 6,
   "width": 296
 }
