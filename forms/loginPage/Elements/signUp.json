@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "signUp",
-  "left": 195,
+  "left": 49,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 366,
+  "top": 374,
   "value": "Sign Up",
   "width": "auto"
 }
