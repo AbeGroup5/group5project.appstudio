@@ -25,15 +25,6 @@
         "forms",
         "UserCreate",
         "Elements",
-        "Label1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "UserCreate",
-        "Elements",
         "iptLast.json"
       ]
     },
@@ -62,6 +53,15 @@
         "UserCreate",
         "Elements",
         "submitBtn.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "UserCreate",
+        "Elements",
+        "Image3.json"
       ]
     }
   ],

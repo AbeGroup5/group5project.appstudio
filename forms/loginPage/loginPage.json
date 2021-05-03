@@ -25,15 +25,6 @@
         "forms",
         "loginPage",
         "Elements",
-        "WelcomeLabel.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "loginPage",
-        "Elements",
         "Line1.json"
       ]
     },
@@ -80,6 +71,15 @@
         "loginPage",
         "Elements",
         "signUp.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "loginPage",
+        "Elements",
+        "Image2.json"
       ]
     }
   ],
