@@ -7,7 +7,9 @@ btnCreate.onclick = function() {
   if (!first_name || !last_name || !userName || !password) {
     alert("Columns not Complete!")
 
-  } /* else {
+  } else {
+    /*
+    
      for (i = 0; i < userNameData.length; i++) {
         if (userName == userNameData[i][0]) { //check indexing if fails
         foundUser = true // need to update found user
