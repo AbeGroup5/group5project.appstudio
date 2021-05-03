@@ -12,6 +12,9 @@ case "Make Post":
 case "Posts":
     ChangeForm(PostMade)
     break
+case "Map":
+    ChangeForm(MAPAPI)
+    break
 }
 }
 
