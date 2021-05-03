@@ -43,7 +43,6 @@ btnCreate.onclick = function() {
         } 
       }
         if (usernameTaken == false) {
-        console.log('No user with this username') //alert? DELETE
         query = "INSERT INTO user (userName, password, first_name, last_name) VALUES ('"+userName+"','"+password+"','"+first_name+"','"+last_name+"')"
 
 

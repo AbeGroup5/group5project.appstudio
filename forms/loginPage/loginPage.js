@@ -13,7 +13,7 @@ SignInButton.onclick = function() {
         found = True
         
     if (found == True){
-        console.log(`Welcome ${userNameID}!`)
+        console.log(`Hello there ${userNameID}!`)
         ChangeForm(HomeSearch)
     } 
     else {
