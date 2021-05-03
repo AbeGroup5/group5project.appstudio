@@ -70,14 +70,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "PostMade",
-            "PostMade.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "MAPAPI",
             "MAPAPI.json"
           ]
@@ -88,6 +80,14 @@
             "forms",
             "Form1",
             "Form1.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "PostMade",
+            "PostMade.json"
           ]
         }
       ],
