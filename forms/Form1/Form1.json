@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
+  "background": "",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -14,9 +14,9 @@
       "!type": "External",
       "file": [
         "forms",
-        "PostMade",
+        "Form1",
         "Elements",
-        "DataTable1.json"
+        "GM.json"
       ]
     }
   ],
@@ -26,7 +26,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "PostMade",
+  "id": "Form1",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
