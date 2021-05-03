@@ -1,12 +1,10 @@
-/* src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSV7XUKItR7LX455m6QEUkgqz2Fc6ycGk&callback=initMap&libraries=&v=weekly"
-async 
-  callAPI(requestURL)
+ src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSV7XUKItR7LX455m6QEUkgqz2Fc6ycGk&callback=initMap&libraries=&v=weekly"
 
 let map, infoWindow;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
+    center: { lat: 41.265308, lng: -95.94718 },
     zoom: 6,
   });
   infoWindow = new google.maps.InfoWindow();
@@ -55,7 +53,7 @@ function initMap() {
   const creighton = { lat: 41.265308, lng: -95.947189 };
   const UNO = { lat: 41.257561, lng: -96.004929 };
   const UNL = { lat: 40.859692, lng: -96.642288 };
-  // The map, centered at Uluru
+  // The map, centered at creighton 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: creighton,
@@ -74,7 +72,7 @@ CL.onclick = function() {
 
 }
 
-let map;
+//let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -82,5 +80,4 @@ function initMap() {
     zoom: 8,
   });
 }
-map = new google.maps.Map(document.getElementById("map"), {...});
-*/
+// map = new google.maps.Map(document.getElementById("map"), {...});
