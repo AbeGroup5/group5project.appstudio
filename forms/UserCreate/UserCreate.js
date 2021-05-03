@@ -39,7 +39,11 @@ btnCreate.onclick = function() {
       }
 */
     }
+<<<<<<< Updated upstream
    
 logBtn.onclick=function(){
     ChangeForm(loginPage)
 }
+=======
+    }
+>>>>>>> Stashed changes

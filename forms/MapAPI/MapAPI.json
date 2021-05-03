@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "pink",
+  "background": "",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -14,19 +14,19 @@
       "!type": "External",
       "file": [
         "forms",
-        "PostMade",
+        "MapAPI",
         "Elements",
-        "DataTable1.json"
+        "CL.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 320,
-  "designWidth": 460,
+  "designHeight": 0,
+  "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 320,
-  "id": "PostMade",
+  "height": 460,
+  "id": "MapAPI",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -43,5 +43,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 460
+  "width": 320
 }

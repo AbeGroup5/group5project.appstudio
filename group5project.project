@@ -73,6 +73,14 @@
             "PostMade",
             "PostMade.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "MapAPI",
+            "MapAPI.json"
+          ]
         }
       ],
       "configxml": null,
@@ -94,7 +102,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "loginPage",
+      "firstform": "MapAPI",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
