@@ -58,13 +58,13 @@ Hamburger3.onclick=function(s){
     return 
 }
 switch(s){
-case "Login":
+case "Login ":
     ChangeForm(loginPage)
     break
-case "Home Search":
+case "Home Search ":
     ChangeForm(HomeSearch)
     break
-case "Make Post":
+case "Make Post ":
     ChangeForm(MakePost)
     break
 case "Posts":
