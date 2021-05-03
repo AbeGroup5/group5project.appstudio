@@ -25,7 +25,7 @@
   "iconTitle": "",
   "id": "drpRating",
   "inputmode": "",
-  "items": "Select\n5 - Excellent\n4 - Very Good\n3 - Good\n2 - Okay\n1 - Bad",
+  "items": "Select\n5\n4\n3\n2\n1",
   "left": 17,
   "mAll": "",
   "mBottom": "",
