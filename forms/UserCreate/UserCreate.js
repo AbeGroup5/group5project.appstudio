@@ -44,11 +44,9 @@ btnCreate.onclick = function() {
                 Alert("You've signed up! Click Login to continue")
             } else
               Alert("There was an issue adding you to the server!")
-          } else
+          } 
         }
       }
-
-    }
    
 logBtn.onclick=function(){
     ChangeForm(loginPage)
